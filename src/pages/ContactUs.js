@@ -27,11 +27,16 @@ const ContactUs = ( proops ) => {
             <section className='form-hero-sec'>
                 <div className='form-hero-container'>
                     <div className='form-hero-map'>
-                    <APIProvider apiKey={'AIzaSyAUOQUcvKESf8w4AobaXLdh56y3eR8QXKw'}>
+                    <APIProvider apiKey={'AIzaSyAUOQUcvKESf8w4AobaXLdh56y3eR8QXKw'} className="form-map">
                         <Map center={position} zoom={14}>
                             <Marker position={position} />
                         </Map>
                         </APIProvider>
+                        <div className='form-data'>
+                            <p><img src='/VectorAc.png'/>Address Offices 302 & 303, Building 8, Bay Square, Business Bay P.O. box 4009 , Dubai, UAE</p>
+                            <p><img src='/VectorAv.png'/> +971 4 572 2220</p>
+                            <p><img src='/VectorAb.png'/>info@adeproperties.ae</p>
+                        </div>
                     </div>
                     <form>
                         <input placeholder='Enter your name' type='text'/>
