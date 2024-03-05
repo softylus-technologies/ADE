@@ -1,0 +1,103 @@
+.contact-hero-sec,.form-hero-sec{
+    display: flex;
+    justify-content: center;
+}
+.contact-hero-sec{
+    padding: 200px 0 100px 0;
+}
+.form-hero-sec{
+    padding: 100px 0;
+}
+.contact-hero-container,.form-hero-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.form-hero-container form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: flex-start;
+    gap: 20px;
+}
+.form-hero-container form input{
+    background: none;
+    border:1px solid #BDBDBD;
+    padding: 24px 18px;
+    width: 100%;
+
+}
+.contact-hero-title h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 96px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.contact-hero-p{
+    width: 500px;
+}
+.contact-hero-p p{
+    color: #FFFFFFCC;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 51.2px;
+}
+.form-hero-container form input,.form-hero-container form textarea {
+    color: rgba(242, 242, 242, 0.5);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "Neue Montreal";
+}
+.form-hero-container form textarea{
+    background: none;
+    border:1px solid #BDBDBD;
+    padding: 24px 18px;
+    height: 120PX;
+    width: 100%;
+}
+.form-hero-container form button{
+    margin-top: 30px;
+    background: rgba(183, 158, 86, 1);
+    border: none;
+    padding: 16px 32px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Neue Montreal";
+}
+.form-hero-map {
+    width: 40vw;
+}
+@media screen and (max-width: 1024px){
+    .contact-hero-container, .form-hero-container{
+        flex-direction: column;
+    }
+    .form-hero-container form,.contact-hero-p{
+        width: 90%;
+    }
+    .contact-hero-title h1{
+        font-size: 42px;
+    }
+    .contact-hero-p p{
+        margin-top: 30px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .contact-hero-sec{
+        padding: 100px 0 50px 0;
+    }
+    .form-hero-sec {
+        padding: 50px 0;
+    }
+    .form-hero-container form input, .form-hero-container form textarea{
+        width: 100%;
+    }
+    .form-hero-map{
+        height: 300px;
+        width: 90vw;
+        margin-bottom: 50px;
+    }
+
+
+}

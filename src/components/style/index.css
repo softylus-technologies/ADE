@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Outfit";
+  src: url(../../../font/Outfit/Outfit-VariableFont_wght.ttf)format(truetype);
+}
+@font-face {
+  font-family: "Neue Montreal";
+  src: url(../../../font/neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Regular.ttf)format(truetype);
+}
+h1,h2,p,h3,h4,h5,h6,button{
+  margin: 0;
+  font-family: "Outfit";
+}
+body{
+  background: #13293D;
+  margin:0 ;
+}
+.homePage-hero-sec{
+  display: flex;
+  justify-content: center;
+}
+.homePage-hero-container{
+  width: 90%;
+  background: url("/Full facade_night 1.svg");
+  height: 644px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.homePage-hero-content h1{
+  color: #FFFFFF;
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 96px;
+  text-align: right;
+}
+.homePage-hero-content h1:nth-child(1),.homePage-hero-content h1:nth-child(3){
+  margin-right: 50px;
+  text-align: left;
+}
+.Home-Properties-sec{
+  display: flex;
+  justify-content: center;
+  background: url("/Vector (3).svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.Home-Properties-container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 65px 0;
+}
+.Home-Properties-title,.Home-Properties-img{
+  width: 47%;
+}
+.Home-Properties-img img{
+  width: 100%;
+}
+.Home-Properties-title h1{
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.Home-Properties-title p{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 27px;
+  font-family: "Neue Montreal" !important;
+  width: 600px;
+  line-height: 25px;
+}
+.Home-Properties-title button{
+  border: 0.5px solid rgba(255, 255, 255, 1);
+  background: none;
+  padding: 12px 32px;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 27px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 3ms all ease-in-out;
+}
+.Home-Properties-title button:hover{
+  color: rgba(255, 255, 255, 0.5);
+}
+.swiper-Discover-sec,.swiper-video-sec{
+  display: flex;
+  justify-content: center;
+}
+.swiper-Discover-title{
+  width: 555px;
+}
+.swiper-Discover-title h1,.swiper-video-title h1{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50.4px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.swiper-video-title h1{
+  text-align: center;
+  margin-top: 100px;
+}
+.swiper-Discover-title p{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-family: "Neue Montreal";
+}
+.swiper-Discover-container,.swiper-video-container{
+  width: 90%;
+}
+.swiper.swiper-Discover,.swiper.swiper-video {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.swiper-Discover-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.btn-sliider button{
+  background: none;
+  border: none;
+}
+.swiper-slide{
+  display: flex !important;
+  flex-direction: column;
+}
+.swiper-slide img{
+  object-fit: cover !important;
+  height: 467px !important;
+  width: 420px;
+}
+.swiper-slide h1{
+  font-size: 96px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  font-family: "Neue Montreal BOLD";
+  letter-spacing: 1px;
+  z-index: 1111;
+  margin-bottom: -40px;
+}
+.swiper-slide-active iframe{
+  width: 100% !important;
+  height: 630px;
+}
+.swiper-wrapper{
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+
+.swiper-pagination-bullet{
+  border-radius: var(--swiper-pagination-bullet-border-radius, 0%) !important;
+  width: 35px !important;
+  height: 3px !important;
+  background: rgba(124, 127, 129, 0.47) !important;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1) !important;
+}
+.swiper-pagination-bullet-active{
+  width: 35px !important;
+  height: 3px !important;
+  background: rgba(255, 188, 109, 1) !important;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1) !important;
+
+
+}
+.swiper-pagination-bullet-active:focus-visible {
+  outline: none !important;
+}
+@media screen and (max-width: 1024px){
+.swiper-Discover  .swiper-slide{
+    align-items: center;
+  }
+  .swiper-Discover-content{
+    margin-bottom: 40px;
+  }
+  .homePage-hero-content h1{
+    font-size: 42px;
+  }
+  .homePage-hero-content {
+    margin-bottom: -55px;
+}
+.homePage-hero-container{
+  align-items: flex-end;
+  margin-bottom: 55px;
+    height: 454px;
+}
+.Home-Properties-container{
+  flex-direction: column;
+  gap: 40px;
+}
+.Home-Properties-title, .Home-Properties-img{
+  width: 100%;
+}
+.btn-sliider {
+  display: none;
+}
+.Home-Properties-title p{
+  width: 100%;
+  font-size: 15px;
+  line-height: 27px;
+}
+.Home-Properties-title h1{
+  font-size: 32px;
+}
+.swiper-Discover-title h1, .swiper-video-title h1{
+  font-size: 32px;
+}
+.swiper-Discover-title p{
+  font-size: 15px;
+}
+}

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Neue Montreal BOLD";
+    src: url(../../../font/neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Bold.ttf);
+}
+section.Sec-Footer{
+    background: url("/Vector (5).svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.Sec-Footer-container {
+    display: flex;
+    justify-content: center;
+    background: url("/Vector (4).svg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 405px;
+    align-items: center;
+}
+.Sec-Footer-content{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.Sec-Footer-content h1{
+    font-family: "Neue Montreal BOLD";
+    color: rgba(255, 255, 255, 1);
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.Sec-Footer-content p{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 20px;
+}
+.Sec-Footer-content button{
+    background: rgba(183, 158, 86, 1);
+    border: 0.5px solid rgba(183, 158, 86, 1);
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+@media screen and (max-width: 1024px){
+    .Sec-Footer-content h1{
+        font-size: 32px;
+    }
+    .Sec-Footer-content p{
+        font-size: 18px;
+    }
+    
+}

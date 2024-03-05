@@ -1,0 +1,161 @@
+.about-hero-sec{
+    display: flex;
+    justify-content: center;
+}
+.about-hero-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+.mobile-aboutUs{
+    display: none;
+}
+.about-hero-title{
+    text-align: right;
+    width: 475px;
+}
+.about-hero-title h1{
+    color: white;
+    font-weight: 700;
+    font-size: 96px;
+    text-transform: uppercase;
+}
+.about-hero-title h1:nth-child(1){
+    text-align: left;
+}
+
+.about-hero-title h1:nth-child(2){
+text-align: center;
+}
+.about-Properties-sec{
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+
+}
+.about-Properties-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.about-Properties-title{
+    width: 47%;
+}
+.about-Properties-title p:nth-child(1){
+    margin-top: 0;
+}
+.about-Properties-title p{
+    font-family: "Neue Montreal";
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 30px;
+    width: 600px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+.about-Properties-heading {
+    width: 50%;
+}
+.about-Properties-heading h1{
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 700;
+    font-size: 96px;
+    text-transform: uppercase;
+}
+.personal-sec{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.personal-container{
+    display: flex;
+    align-items: center;
+    background: url("/Vector (6).svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    flex-direction: column;
+}
+.personal-content{
+    width: 80%;
+}
+.personal-content p{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    line-height: 28.8px;
+    text-align: Center;
+}
+.personal-card {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 75%;
+    gap: 85px;
+}
+.personal-card h3{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+.personal-card p{
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 6px;
+}
+.banner-about{
+    width: 100%;
+}
+@media screen and (max-width: 1024px){
+    .about-hero-title h1:nth-child(1){
+        margin-right:0px;
+        text-align: center;
+    }
+    .about-hero-title h1:nth-child(3){
+        margin-right:0px;
+    }
+    .about-hero-title h1:nth-child(2){
+        margin-right: 00px;
+    }
+    .about-hero-container{
+        flex-direction: column;
+    }
+    .about-hero-title h1,.about-Properties-heading h1{
+        font-size: 42px;
+    }
+    .about-Properties-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .about-Properties-title p{
+        width: 100%;
+    }
+    .personal-card{
+        flex-direction: column;
+    }
+    .personal-single-card img,.about-hero-img img,.about-Properties-title{
+        width: 100%;
+    }
+    .personal-sec,.about-Properties-sec {
+        padding: 50px 0;
+    }
+    .about-hero-title {
+        text-align: center;
+        width: 100%;
+    }
+    .personal-card h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    .personal-card p{
+        text-align: center;
+    }
+    
+}
