@@ -16,7 +16,7 @@
 .form-hero-container form {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 50%;
     align-items: flex-start;
     gap: 20px;
 }
@@ -24,7 +24,7 @@
     background: none;
     border:1px solid #BDBDBD;
     padding: 24px 18px;
-    width: 100%;
+    width: 90%;
 
 }
 .contact-hero-title h1{
@@ -35,7 +35,7 @@
     text-transform: uppercase;
 }
 .contact-hero-p{
-    width: 500px;
+    width: 50%;
 }
 .contact-hero-p p{
     color: #FFFFFFCC;
@@ -54,7 +54,7 @@
     border:1px solid #BDBDBD;
     padding: 24px 18px;
     height: 120PX;
-    width: 100%;
+    width: 90%;
 }
 .form-hero-container form button{
     margin-top: 30px;
@@ -88,7 +88,15 @@
     align-items: flex-start;
     gap: 5px;
 }
+.form-hero-sec {
+    background: url("/VectorBg.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
 @media screen and (max-width: 1024px){
+    .form-hero-container form input,.form-hero-container form textarea{
+        width: 100%;
+    }
     .form-hero-container form{
         margin-top: 160px;
     }
