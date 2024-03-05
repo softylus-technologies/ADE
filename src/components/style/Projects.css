@@ -132,7 +132,7 @@
         margin-bottom: 50px;
     }
     .Projects-hero-title{
-        width: 90%;
+        width: 60%;
     }
     .Projects-hero-title h1{
         font-size: 42px;
@@ -146,6 +146,7 @@
     .Greensgate-image img{
         height: 330px;
          object-fit: cover;
+         width: 100%;
     }
     .Greensgate-title h1{
         font-size: 32px;
@@ -167,5 +168,10 @@
     }
     .Deansgate-content p{
         margin-top: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .Projects-hero-title{
+        width: 90%;
     }
 }

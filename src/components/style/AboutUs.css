@@ -124,6 +124,9 @@ text-align: center;
     }
 }
 @media screen and (max-width: 1024px){
+    .personal-single-card{
+        width: 100%;
+    }
     .about-hero-title h1:nth-child(1){
         margin-right:0px;
         text-align: center;
