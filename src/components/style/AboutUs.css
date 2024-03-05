@@ -94,6 +94,7 @@ text-align: center;
     justify-content: center;
     width: 75%;
     gap: 85px;
+    flex-wrap: wrap;
 }
 .personal-card h3{
     color: rgba(255, 255, 255, 1);
@@ -112,6 +113,15 @@ text-align: center;
 }
 .banner-about{
     width: 100%;
+}
+@media screen and (max-width: 1320px){
+    .about-Properties-container{
+        flex-direction: column;
+        
+    }
+    .about-Properties-title p,.about-Properties-title{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 1024px){
     .about-hero-title h1:nth-child(1){

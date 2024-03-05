@@ -52,8 +52,9 @@
     margin-top: 50px;
 }
 .Deansgate-card {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px; 
     margin-bottom: 125px;
 }
@@ -78,10 +79,12 @@
 }
 .Greensgate-duolImage{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .Greensgate-sec{
     display: flex;
+    
     justify-content: center;
 }
 .Greensgate-container{

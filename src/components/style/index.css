@@ -173,6 +173,11 @@ body{
 .swiper-pagination-bullet-active:focus-visible {
   outline: none !important;
 }
+@media screen and (max-width: 1210px){
+  .Home-Properties-title p{
+    width: 100%;
+  }
+}
 @media screen and (max-width: 1024px){
 .swiper-Discover  .swiper-slide{
     align-items: center;
