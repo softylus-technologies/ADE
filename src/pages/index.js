@@ -54,20 +54,21 @@ const IndexPage = () => {
             <Swiper className="swiper-Discover"
               breakpointsInverse={true}
               breakpoints={{
-                640: {
-                  slidesPerView: 1,
-                  spaceBetween: 20,
-                },
-                768: {
+                900: {
                   slidesPerView: 1,
                   spaceBetween: 40,
                 },
-                1024: {
+                1070:{
+                  slidesPerView: 2 ,
+                  spaceBetween: 50,
+                },
+                
+                1300: {
                   slidesPerView: 2.5,
                   spaceBetween: 50,
                 },
-                1030: {
-                  slidesPerView: 2.5,
+                1640:{
+                  slidesPerView: 3.5,
                   spaceBetween: 50,
                 },
               }}
