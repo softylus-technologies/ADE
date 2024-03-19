@@ -98,6 +98,20 @@
   transform: scale(0.9);
   transition: opacity 300ms, transform 300ms;
 }
+.contact-button {
+  height: 100%;
+}
+.contact-button button {
+  height: 100%;
+  width: 150px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  background: rgba(183, 158, 86, 1);
+  border: 0.5px solid rgba(183, 158, 86, 1);
+  text-transform: uppercase;
+  cursor: pointer;
+}
 @media screen and (max-width: 1024px) {
   .mobile-menu{
     display: inline;

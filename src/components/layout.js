@@ -50,7 +50,6 @@ const Layout = ({ children }) => {
               <div>
                 <Link to="../../../../">Home</Link>
                 <Link to="/Projects">projects</Link>
-                <Link to="">rent</Link>
             </div>
             <div>
               <Link to="/AboutUs">about us</Link>
@@ -62,12 +61,12 @@ const Layout = ({ children }) => {
               <h2>FOLLOW US</h2>
               <div className="social-icons">
                 
-              <Link to=""><img src="/Vector.svg"/></Link>
-              <Link to=""><img src="/Vector (1).svg"/></Link>
-              <Link to=""><img src="/Vector (2).svg"/></Link>
+              <Link to="https://www.instagram.com/ade.properties/"><img src="/Vector.svg"/></Link>
+              <Link to="https://www.linkedin.com/company/adeproperties/"><img src="/Vector (1).svg"/></Link>
+              <Link to="https://www.facebook.com/ade.properties"><img src="/entypo-social_facebook.svg"/></Link>
 
               </div>
-              <p>privacy policy</p>
+              <Link to="/PrivacyPolicy">privacy policy</Link>
               <p>terms of use</p>   
             </div>
           </div>

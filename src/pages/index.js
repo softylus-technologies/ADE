@@ -107,7 +107,17 @@ const IndexPage = () => {
       <section className="swiper-video-sec">
         <div className="swiper-video-container">
           <div className="swiper-video-swiper">
-          <Swiper
+          <div className="swiper-video-content">
+                <div className="swiper-video-title">
+                  <h1>Feature videos</h1>
+                </div>
+             </div>
+             <div className="swiper-video-frame">
+                <div className="swiper-video-video">
+                  <video src="/ec9f4365-6487-461c-9481-deeb649cb058 (1).mp4" controls Autoplay></video>
+                </div>
+             </div>
+          {/* <Swiper
             className="swiper-video"
             breakpointsInverse={true}
             breakpoints={{
@@ -136,11 +146,7 @@ const IndexPage = () => {
             direction="horizontal"
             onSwiper={(swiper) => console.log(swiper)}
           >
-                        <div className="swiper-video-content">
-                <div className="swiper-video-title">
-                  <h1>Feature videos</h1>
-                </div>
-             </div>
+               
              <SwiperSlide className="swiper-video-Slide">
               <iframe 
                 src="https://www.youtube.com/embed/KgyzKTrQDs0" 
@@ -184,7 +190,7 @@ const IndexPage = () => {
                 allowFullScreen
               />
             </SwiperSlide>
-            </Swiper>
+            </Swiper> */}
           </div>
         </div>
       </section>

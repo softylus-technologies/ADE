@@ -6,7 +6,7 @@
   font-family: "Neue Montreal";
   src: url(../../../font/neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Regular.ttf)format(truetype);
 }
-h1,h2,p,h3,h4,h5,h6,button{
+h1,h2,p,h3,h4,h5,h6,button,li {
   margin: 0;
   font-family: "Outfit";
 }
@@ -173,6 +173,12 @@ body{
 }
 .swiper-pagination-bullet-active:focus-visible {
   outline: none !important;
+}
+.swiper-video-Slide iframe{
+  width: 100%;
+}
+.swiper-video-video video{
+  width: 100% !important; 
 }
 @media screen and (max-width: 1210px){
   .Home-Properties-title p{

@@ -20,9 +20,11 @@ const Header = () => {
           <Link to="../../../">home</Link>
           <Link to="/Projects">projects</Link>
           <Link to="/AboutUs">about us</Link>
-          <Link to="/ContactUs">contact us</Link>
+          
         </div>
-        <div></div>
+        <div className="contact-button">
+            <Link to="/ContactUs"><button>contact us</button></Link>
+        </div>
         <div className='mobile-menu'>
           <Button color="danger" onClick={toggle}> {/* Use toggle without this */}
             <img src='/menu.svg'/>

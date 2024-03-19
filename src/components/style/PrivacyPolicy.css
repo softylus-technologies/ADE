@@ -1,0 +1,71 @@
+.PrivacyPolicy-hero{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.PrivacyPolicy-hero-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.PrivacyPolicy-hero-text{
+    width: 600px;
+}
+.PrivacyPolicy-hero-text h1{
+    font-weight: 700;
+    font-size: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 96px;
+
+}
+.PrivacyPolicy-hero-text p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28.8px;
+
+}
+.PrivacyPolicy-hero-text h1:nth-child(2){
+    text-align: center;
+}
+.PrivacyPolicy-hero-p{
+    max-width: 50%;
+}
+.PrivacyPolicy-hero-p p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 28.8px;
+    font-family: "Neue Montreal";
+
+}
+.PrivacyPolicy-hero-p p:nth-child(2){
+    margin-top: 30px;
+}
+.PrivacyPolicy-main{
+    display: flex;
+    justify-content: center;
+}
+.PrivacyPolicy-main-container{
+    width: 90%;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+.PrivacyPolicy-main-container a{
+    color: #f2f2f2;
+}
+.PrivacyPolicy-main-container h2{
+    font-size: 32px;
+}
+.PrivacyPolicy-main-container h3{
+    margin-top: 20px;
+}
+.PrivacyPolicy-main-container h2{
+    margin-top: 30px;
+}
+.PrivacyPolicy-main-container h2:nth-child(1){
+    margin-top: 0px;
+}
