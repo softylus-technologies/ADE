@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@graphland/react-video-player": "^0.1.14",
     "@vis.gl/react-google-maps": "^0.7.1",
     "gatsby": "^5.13.3",
     "gatsby-plugin-image": "^3.13.1",
@@ -16,10 +17,13 @@
     "google-maps-react": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-player": "^2.15.1",
     "react-transition-group": "^4.4.5",
     "reactstrap": "^9.2.2",
+    "redux": "^5.0.1",
     "sharp": "^0.33.2",
-    "swiper": "^11.0.7"
+    "swiper": "^11.0.7",
+    "video-react": "^0.16.0"
   },
   "devDependencies": {
     "prettier": "^2.8.8"

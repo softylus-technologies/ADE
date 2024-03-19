@@ -1,7 +1,10 @@
-.PrivacyPolicy-hero{
+.PrivacyPolicy-hero,.TermsOfUse-hero-section{
     display: flex;
     justify-content: center;
     padding: 50px 0;
+}
+.TermsOfUse-hero-contenair{
+    width: 90%;
 }
 .PrivacyPolicy-hero-container{
     width: 90%;
@@ -13,13 +16,19 @@
 .PrivacyPolicy-hero-text{
     width: 600px;
 }
-.PrivacyPolicy-hero-text h1{
+.PrivacyPolicy-hero-text h1,.TermsOfUse-hero-text h1{
     font-weight: 700;
     font-size: 700;
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 96px;
 
+}
+.TermsOfUse-hero-text h1:nth-child(2){
+    text-align: center;
+}
+.TermsOfUse-hero-text {
+    max-width: 600px;
 }
 .PrivacyPolicy-hero-text p{
     font-weight: 700;
@@ -45,27 +54,51 @@
 .PrivacyPolicy-hero-p p:nth-child(2){
     margin-top: 30px;
 }
-.PrivacyPolicy-main{
+.PrivacyPolicy-main,.TermsOfUse-content-sec{
     display: flex;
     justify-content: center;
 }
-.PrivacyPolicy-main-container{
+.PrivacyPolicy-main-container,.TermsOfUse-content-container{
     width: 90%;
     color: #FFFFFF;
     line-height: 30px;
 }
-.PrivacyPolicy-main-container a{
+.PrivacyPolicy-main-container a,.TermsOfUse-content-container a{
     color: #f2f2f2;
 }
-.PrivacyPolicy-main-container h2{
+.PrivacyPolicy-main-container h2 ,.TermsOfUse-content-container h2{
     font-size: 32px;
 }
 .PrivacyPolicy-main-container h3{
     margin-top: 20px;
 }
-.PrivacyPolicy-main-container h2{
+.PrivacyPolicy-main-container h2,.TermsOfUse-content-container h2{
     margin-top: 30px;
 }
-.PrivacyPolicy-main-container h2:nth-child(1){
+.PrivacyPolicy-main-container p ,.TermsOfUse-content-container p{
+    font-weight: 300;
+}
+.PrivacyPolicy-main-container h2:nth-child(1) ,.TermsOfUse-content-container h2:first-child{
     margin-top: 0px;
+}
+@media screen and (max-width: 1024px) {
+    .PrivacyPolicy-hero-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .PrivacyPolicy-hero-p{
+        max-width: 100%;
+    }
+    .PrivacyPolicy-hero-text h1,.TermsOfUse-hero-text h1{
+        font-size: 42px;
+    }
+    .PrivacyPolicy-hero-text{
+        width: 400px;
+    }
+   
+}
+@media screen and (max-width: 767px){
+    .PrivacyPolicy-hero-text{
+        width: 100%;
+    }
 }

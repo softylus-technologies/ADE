@@ -67,7 +67,7 @@ const Layout = ({ children }) => {
 
               </div>
               <Link to="/PrivacyPolicy">privacy policy</Link>
-              <p>terms of use</p>   
+              <Link to="/TermsOfUse">Terms & Conditions</Link >   
             </div>
           </div>
         </footer>
