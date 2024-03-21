@@ -179,6 +179,11 @@ body{
 }
 .swiper-video-video video{
   width: 100% !important; 
+  background: url("/image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
 }
 @media screen and (max-width: 1210px){
   .Home-Properties-title p{

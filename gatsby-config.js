@@ -38,6 +38,16 @@ module.exports = {
         display: `minimal-ui`,
         icon: `./static/Frame 2.svg`, // This path is relative to the root of the site.
       },
+      
+    },
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        
+        defaults: {},
+        
+        failOn: `warning`,
+      },
     },
   ],
 }
