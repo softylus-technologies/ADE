@@ -2,6 +2,8 @@ import React from 'react'
 import SecFooter from "../components/SecFooter"
 import Layout from "../components/layout"
 import "../components/style/Projects.css"
+import { StaticImage } from 'gatsby-plugin-image';
+
 const Projects = () => {
   return (
   <Layout>
@@ -14,7 +16,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
-    <img src='/Entrance 3 (1).png' className='Projects-banner'/>
+    <StaticImage src='../../static/Entrance 3 (1).png' className='Projects-banner'/>
     <section className='Deansgate-sec'>
       <div className='Deansgate-container'>
         <div className='Deansgate-content'>
@@ -24,24 +26,24 @@ const Projects = () => {
         </div>
         <div className='Deansgate-card'>
           <div className='Deansgate-single-card'>
-            <img src='/Lobby 1.png'/>
+            <StaticImage src='../../static/Lobby 1.png'/>
             <h3>design</h3>
             <p>The hyper property embodies the essence of its name. Similar to the exquisite gemstone, they hyper property is a rare and well crafted offering that radiates warmth and elegance.</p>
           </div>
           <div className='Deansgate-single-card'>
-            <img src='/Frame 56.png'/>
+            <StaticImage src='../../static/Frame 56.png'/>
             <h3>details</h3>
             <p>From the aerodynamic strokes of the hyper property to the exquisite exterior, every angle of Deansgate is designed to evoke a sense of style and elegance that is derived from ADE’s brand ethos.</p>
           </div>
           <div className='Deansgate-single-card'>
-            <img src='/Frame 57.png'/>
+            <StaticImage src='../../static/Frame 57.png'/>
             <h3>distinction</h3>
             <p>Deansgate features a unique and striking facade that captures essence of its name and the brand. The interior of the hyper property is equally stunning, creating a sense of sophistication to the discerning residents.</p>
           </div>
         </div>
       </div>
     </section>
-    <img src='/Frame 12.png' className='Projects-banner'/>
+    <StaticImage src='../../static/Frame 12.png' className='Projects-banner'/>
     <section className='Greensgate-sec'>
       <div className='Greensgate-container'>
         <div className='Greensgate-title'>
@@ -51,10 +53,10 @@ Greensgate by ADE is designed to have both Studios and 1-bedroom residences, as 
         </div>
         <div className='Greensgate-image'>
           <div className='Greensgate-duolImage'>
-            <img src='/Lobby 1 (1).png'/>
-            <img src='/Lobby 1 (2).png'/>
+            <StaticImage src='../../static/Lobby 1 (1).png'/>
+            <StaticImage src='../../static/Lobby 1 (2).png'/>
           </div>
-          <img src='/Shared pool 2.png'/>
+          <StaticImage src='../../static/Shared pool 2.png'/>
 
         </div>
       </div>

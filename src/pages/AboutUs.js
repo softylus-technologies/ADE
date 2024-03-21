@@ -17,7 +17,7 @@ const AboutUs = () => {
                     <h1 className='mobile-aboutUs'> About Us</h1>
                 </div>
                 <div className='about-hero-img'>
-                    <img src='/greensgate 1.svg'/>
+                    <StaticImage src='../../static/greensgate 1.svg'/>
                 </div>
             </div>
         </section>
@@ -48,19 +48,19 @@ const AboutUs = () => {
         </div>
         <div className='personal-card'>
           <div className='personal-single-card'>
-            <img src='/Rectangle 7.png'/>
+            <StaticImage src='../../static/Rectangle 7.png'/>
             <h3>Saeed Mahmood Al Dallal</h3>
             <p>Director ADE Properties</p>
           </div>
           <div className='personal-single-card'>
-            <img src='/Rectangle 8.png'/>
+            <StaticImage src='../../static/Rectangle 8.png'/>
             <h3>Mohamed Mahmood Al Dallal</h3>
             <p>Manager Director ADE Properties</p>
           </div>
         </div>
       </div>
     </section>
-    <img src='/Frame 54 (1).png' className='banner-about' />
+    <StaticImage src='../../static/Frame 54 (1).png' className='banner-about' />
         <SecFooter/>
     </Layout>
   )
