@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@graphland/react-video-player": "^0.1.14",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
     "@vis.gl/react-google-maps": "^0.7.1",
     "gatsby": "^5.13.3",
     "gatsby-plugin-image": "^3.13.1",

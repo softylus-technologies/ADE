@@ -5,12 +5,14 @@
  * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
  */
 
-import * as React from "react"
+import React, { useState, useEffect } from 'react';
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./style/layout.css"
+import Looder from "./looder"
 import { Link } from "gatsby"
 const Layout = ({ children }) => {
+  const [loading, setLoading] = useState(true);
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -20,6 +22,13 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  useEffect(() => {
+    // Assuming the loading process is done here
+    // You might want to tie this state to your actual loading logic
+    setTimeout(() => setLoading(false), 3000); // Example timeout to simulate loading
+  }, []);
+
+  if (loading) return <Looder />;
 
   return (
     <>
