@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <footer className="footer-sec">
           <div className="footer-container">
             <div className="footer-logo">
-              <img src="/Frame 2.svg"/>
+            <Link to="../../../"><img src="/Frame 2.svg"/></Link>
               <p>Affordable. Luxurious. Exceptional.</p>
             </div>
             <div className="footer-links">

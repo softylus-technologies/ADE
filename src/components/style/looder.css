@@ -11,6 +11,7 @@
     background: url("/afafafafafafa.png"),#13293D;
     background-position: center;
     background-repeat: no-repeat;
+    
     z-index: 9999;
   }
   .loader img{
