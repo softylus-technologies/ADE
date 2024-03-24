@@ -114,7 +114,7 @@ const IndexPage = () => {
              </div>
              <div className="swiper-video-frame">
                 <div className="swiper-video-video">
-                  <video src="/ec9f4365-6487-461c-9481-deeb649cb058 (1).mp4" controls Autoplay > </video>
+                  <video src="/ec9f4365-6487-461c-9481-deeb649cb058 (1).mp4" controls poster="/image.png" Autoplay > </video>
                 </div>
              </div>
           {/* <Swiper
