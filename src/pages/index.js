@@ -44,7 +44,7 @@ const IndexPage = () => {
             <Link to="/ContactUs"><button>CONTACT US</button></Link>
           </div>
           <div className="Home-Properties-img">
-            <StaticImage src="../../static/Lobby 2.jpg" alt="Lobby" />
+            <img src="/Lobby 2.jpg" alt="Lobby" />
           </div>
         </div>
       </section>
@@ -91,15 +91,15 @@ const IndexPage = () => {
                 </div>
                 <SliderButtons />
              </div>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>01</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>02</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>03</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>04</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>05</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>06</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>07</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>08</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>09</h1><StaticImage src='../../static/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>01</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>02</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>03</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>04</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>05</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>06</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>07</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>08</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>09</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
             </Swiper>
           </div>
         </div>
