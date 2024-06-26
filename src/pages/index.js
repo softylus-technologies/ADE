@@ -192,6 +192,9 @@ const IndexPage = () => {
                   600:{
                     slidesPerView: 1,
                   },
+                  787:{
+                    slidesPerView: 2,
+                  },
                   820: {
                     slidesPerView: 2,
                     spaceBetween: 40,
