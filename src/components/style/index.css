@@ -234,13 +234,36 @@ flex-direction: column;
   color: white;
 
 }
+.hide-pc{
+  display: none;
+}
 @media screen and (max-width: 1210px){
   .Home-Properties-title p{
     width: 100%;
   }
 }
 @media screen and (max-width: 1024px){
+  .hide-pc{
+    display: block;
+  }
+.hide-ipad{
+  display: none;
+}
+.amenities-sec .swiper-amenities{
+  max-width: 100vw;
+}
+.amenities-container{
+  width: 90% !important;
+}
+.swiper-amenities .swiper-slide {
+  max-width: 100%;
+  gap: 20px;
+}
 
+.amenities-sec .swiper-amenities .single-amenities img{
+  max-width: 74px;
+  max-height: 74px;
+}
 .swiper-Discover  .swiper-slide{
     align-items: center;
   }
@@ -294,6 +317,9 @@ flex-direction: column;
 }
 }
 @media screen and (max-width: 767px){
+  .single-amenities{
+    width: 100%;
+  }
   .amenities-container {
     flex-direction: row;
     overflow-y: auto;
