@@ -189,18 +189,21 @@ const IndexPage = () => {
         <Swiper
                 className="swiper-amenities "
                 breakpoints={{
+                  375:{
+                    slidesPerView: 1.5,
+                  },
                   600:{
-                    slidesPerView: 1,
+                    slidesPerView: 1.5,
                   },
                   787:{
                     slidesPerView: 2,
                   },
                   820: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 40,
                   },
                   900: {
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 40,
                   },
                   1024: {
