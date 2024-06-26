@@ -240,10 +240,7 @@ flex-direction: column;
   }
 }
 @media screen and (max-width: 1024px){
-  .amenities-container {
-    flex-direction: row;
-    overflow-y: auto;
-  }
+
 .swiper-Discover  .swiper-slide{
     align-items: center;
   }
@@ -297,6 +294,10 @@ flex-direction: column;
 }
 }
 @media screen and (max-width: 767px){
+  .amenities-container {
+    flex-direction: row;
+    overflow-y: auto;
+  }
   .single-row{
     gap: 20px;
   }
