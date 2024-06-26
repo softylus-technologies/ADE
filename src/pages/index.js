@@ -104,6 +104,89 @@ const IndexPage = () => {
           </div>
         </div>
       </section>
+      <section className="amenities-sec">
+        <h1>AMENITIES</h1>
+        <div className="amenities-container">
+          <div className="single-row">
+            <div className="single-amenities">
+                <img src="/Mask group (1).png"/>
+                <h2>Gazebo Sitting</h2>
+            </div>
+            <div className="Divider"></div>
+            <div className="single-amenities">
+                <img src="/hugeicons--equipment-gym-03 1.png"/>
+                <h2>Outdoor Gym</h2>
+            </div>
+            <div className="Divider"></div>
+
+            <div className="single-amenities">
+                <img src="/maki--water 1.png"/>
+                <h2>Water Feature</h2>
+            </div>
+            <div className="Divider"></div>
+          
+            <div className="single-amenities ">
+                <img src="/material-symbols-light--directions-run-rounded 1.png"/>
+                <h2>Outdoor Running Track</h2>
+            
+            
+            </div>
+            </div>
+            <div  className="single-row">
+            <div className="single-amenities">
+                <img src="/icon-park-outline--xiaodu-home 1.png"/>
+                <h2>Home Automation</h2>
+            </div>
+            <div className="Divider"></div>
+
+            <div className="single-amenities">
+                <img src="/Mask group (2).png"/>
+                <h2>Kids 
+                Swimming Pool</h2>
+            </div>
+            <div className="Divider"></div>
+
+          
+            <div className="single-amenities">
+                <img src="/material-symbols-light--directions-car-outline-rounded 1.png"/>
+                <h2>Parking</h2>
+            </div>
+            <div className="Divider"></div>
+
+            <div className="single-amenities ">
+                <img src="/Mask group (3).png"/>
+                <h2>
+                  BBQ Area</h2>
+            </div>
+            </div>
+            <div  className="single-row">
+            <div className="single-amenities">
+                <img src="/mdi--gym 1.png"/>
+                <h2>Indoor Gym</h2>
+            </div>
+            <div className="Divider"></div>
+
+          
+            <div className="single-amenities">
+                <img src="/Mask group (4).png"/>
+                <h2>Outdoor Swimming Pool</h2>
+            </div>
+            <div className="Divider"></div>
+
+            <div className="single-amenities">
+                <img src="/Mask group (5).png"/>
+                <h2>Kids Play Area</h2>
+            </div>
+            <div className="Divider"></div>
+
+            <div className="single-amenities ">
+                <img src="/material-symbols-light--chair-alt-rounded 1.png"/>
+                <h2>Outdoor Seats</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="swiper-video-sec">
         <div className="swiper-video-container">
           <div className="swiper-video-swiper">

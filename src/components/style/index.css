@@ -185,12 +185,61 @@ body{
   background-position: center center;
 
 }
+.amenities-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+}
+.amenities-sec h1{
+  color: white;
+font-size: 32px;
+font-weight: 500;
+line-height: 51.2px;
+letter-spacing: 0.02em;
+text-align: left;
+margin-bottom: 60px;
+}
+.amenities-container {
+  width: 90%;
+
+  gap: 45px; 
+}
+.single-amenities{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 242px;
+}
+.single-row{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.Divider{
+  border-left: 1px solid #FFFFFF;
+  /* width: 80px; */
+
+
+}
+.single-amenities h2{
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25.2px;
+  text-align: left;
+  color: white;
+
+}
 @media screen and (max-width: 1210px){
   .Home-Properties-title p{
     width: 100%;
   }
 }
 @media screen and (max-width: 1024px){
+  
 .swiper-Discover  .swiper-slide{
     align-items: center;
   }
@@ -232,4 +281,26 @@ body{
 .swiper-Discover-title p{
   font-size: 15px;
 }
+.single-row{
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.Divider{
+  display: none;
+}
+.amenities-container {
+  gap: 20px;
+}
+}
+@media screen and (max-width: 767px){
+  .single-row{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .amenities-container {
+    gap: 20px;
+  }
+  .Divider{
+    display: none;
+  }
 }

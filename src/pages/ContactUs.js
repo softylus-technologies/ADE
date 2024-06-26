@@ -19,9 +19,7 @@ const ContactUs = ( proops ) => {
                         <h1>Contact</h1>
                         <h1>us</h1>
                     </div>
-                    <div className='contact-hero-p'>
-                        <p>Need more information? Give us a call or fill up the form below.</p>
-                    </div>
+                    
                 </div>
             </section>
             <section className='form-hero-sec'>
@@ -39,6 +37,9 @@ const ContactUs = ( proops ) => {
                         </div>
                     </div>
                     <form>
+                    <div className='contact-hero-p'>
+                        <p>Need more information? Give us a call or fill up the form below.</p>
+                    </div>
                         <input placeholder='Enter your name' type='text'/>
                         <input placeholder='Enter your Email' type='Email'/>
                         <textarea placeholder='Message' type='text'/>

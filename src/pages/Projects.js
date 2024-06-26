@@ -43,8 +43,8 @@ const Projects = () => {
         </div>
       </div>
     </section>
-    <StaticImage src='../../static/Frame 12.png' className='Projects-banner'/>
-    <section className='Greensgate-sec'>
+    {/* <StaticImage src='../../static/Frame 12.png' className='Projects-banner'/> */}
+    {/* <section className='Greensgate-sec'>
       <div className='Greensgate-container'>
         <div className='Greensgate-title'>
           <h1>Greensgate by ADE</h1>
@@ -58,6 +58,19 @@ Greensgate by ADE is designed to have both Studios and 1-bedroom residences, as 
           </div>
           <StaticImage src='../../static/Shared pool 2.png'/>
 
+        </div>
+      </div>
+    </section> */}
+    <section className='JVC-sec'>
+      <div className='JVC-container'>
+        <h1>
+        OUR UPCOMING PROJECTS
+        IN JVC AND MAJAN
+        </h1>
+        <div className='JVC-Coming-Soon'>
+            <h1>
+              COMING SOON
+            </h1>
         </div>
       </div>
     </section>

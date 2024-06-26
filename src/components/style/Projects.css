@@ -124,7 +124,38 @@
 .Greensgate-duolImage img{
     width: 626px;
 }
+.JVC-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.JVC-container h1{
+    color: #FFFFFF;
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    max-width: 710px;
+    text-align: center;
+}
+.JVC-Coming-Soon{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+}
 @media screen and (max-width: 1024px){
+    .JVC-container h1{
+        max-width: 100vw;
+        font-size: 32px;
+    }
+    .Deansgate-single-card{
+        display: flex;
+        flex-direction: column;
+    }
     .Deansgate-card{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 40px;

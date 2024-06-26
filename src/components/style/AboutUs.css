@@ -30,15 +30,18 @@ text-align: center;
 }
 .about-Properties-sec{
     display: flex;
-    padding: 100px 0;
+  
     justify-content: center;
-
+   
 }
 .about-Properties-container{
     display: flex;
     justify-content: space-between;
     width: 90%;
-
+    background: url("/Full facade_night 2.png");
+    padding: 100px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .about-Properties-title{
     width: 47%;
@@ -156,7 +159,7 @@ text-align: center;
     .personal-single-card img,.about-hero-img img,.about-Properties-title{
         width: 100%;
     }
-    .personal-sec,.about-Properties-sec {
+    .personal-sec,.about-Properties-container {
         padding: 50px 0;
     }
     .about-hero-title {
