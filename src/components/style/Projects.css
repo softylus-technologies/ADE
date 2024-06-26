@@ -200,6 +200,10 @@
     .Deansgate-content p{
         margin-top: 30px;
     }
+    .JVC-Coming-Soon{
+        height: 350px;
+    }
+    
 }
 @media screen and (max-width: 600px){
     .Projects-hero-title{
