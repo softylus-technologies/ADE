@@ -19,7 +19,7 @@ const Header = () => {
         <div className="NavBar-Links link-pc">
           <Link to="../../../">home</Link>
           <Link to="/Projects">projects</Link>
-          <Link to="/AboutUs">about us</Link>
+          <Link to="/AboutUs">more about us</Link>
           
         </div>
         <div className="contact-button">
@@ -41,7 +41,7 @@ const Header = () => {
                 <div className="NavBar-Links">
                   <Link to="../../../">home</Link>
                   <Link to="/Projects">projects</Link>
-                  <Link to="/AboutUs">about us</Link>
+                  <Link to="/AboutUs">more about us</Link>
                   <Link to="/ContactUs">contact us</Link>
                 </div>
               </ModalBody>

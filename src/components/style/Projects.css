@@ -131,13 +131,20 @@
 }
 .JVC-container h1{
     color: #FFFFFF;
-    font-size: 54px;
+    font-size: 45px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 50px;
     max-width: 710px;
     text-align: center;
+    margin-bottom: 0;
+}
+.JVC-container h1:nth-child(2){
+    font-size: 32px;
+}
+.JVC-Coming-Soon{
+    margin-top: 50px;
 }
 .JVC-Coming-Soon{
     height: 550px;
@@ -145,7 +152,22 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: rgba(255, 255, 255, 0.05);
+    background: url("/Coming Soon Section.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+.Deansgate-content span{
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.38em;
+    text-align: center;
+    color: #B79E56;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
 }
 @media screen and (max-width: 1024px){
     .JVC-container h1{

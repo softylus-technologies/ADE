@@ -38,6 +38,7 @@ const Layout = ({ children }) => {
           <div className="footer-container">
             <div className="footer-logo">
             <Link to="../../../"><img src="/Frame 2.svg"/></Link>
+            <p>Innovation. Excellence. Legacy.</p>
             </div>
             <div className="footer-links">
               <h2>REACH US</h2>

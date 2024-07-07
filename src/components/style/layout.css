@@ -74,6 +74,7 @@
   font-size: 14px;
   line-height: 25px;
   font-weight: 500;
+  max-width: 160px;
 }
 .mobile-menu{
   display: none;

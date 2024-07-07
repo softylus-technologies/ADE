@@ -21,6 +21,7 @@ const Projects = () => {
       <div className='Deansgate-container'>
         <div className='Deansgate-content'>
           <h1>Deansgate by ADE</h1>
+          <span>Affordable • Luxurious • Exceptional</span>
           <p>Deansgate by ADE is a captivating architectural masterpiece nestled in the heart of Majan, Dubai. This contemporary marvel stands tall, boasting a dynamic structure that seamlessly integrates modern living with commercial convenience, from its inviting ground floor to 10 floors of Residential spaces.<br/> 
             Including Studios, 1 BHK, 2 BHK, 3 BHK, and 4 BHK residences, each meticulously designed to cater to your unique lifestyle. But that’s not all – with retail shops at your doorstep, Deansgate promises a vibrant, all-compassing urban experience like no other. Experience the ideal modern living in Majan, Dubai.</p>
         </div>
@@ -65,11 +66,13 @@ Greensgate by ADE is designed to have both Studios and 1-bedroom residences, as 
       <div className='JVC-container'>
         <h1>
         OUR UPCOMING PROJECTS
-        IN JVC AND MAJAN
         </h1>
         <div className='JVC-Coming-Soon'>
             <h1>
               COMING SOON
+            </h1>
+            <h1>
+              IN JVC AND MAJAN
             </h1>
         </div>
       </div>

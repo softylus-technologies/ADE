@@ -29,9 +29,9 @@ const IndexPage = () => {
       <section className="homePage-hero-sec">
         <div className="homePage-hero-container">
           <div className="homePage-hero-content">
-            <h1>Affordable. </h1>
-            <h1>Luxurious. </h1>
-            <h1>Exceptional.</h1>
+            <h1>Innovation.</h1>
+            <h1>Excellence.</h1>
+            <h1>Legacy.</h1>
           </div>
         </div>
       </section>
