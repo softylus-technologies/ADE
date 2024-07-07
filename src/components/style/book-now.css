@@ -1,0 +1,101 @@
+.booknow-sec{
+    display: flex;
+    justify-content: center;
+    background: url("/Full facade_night 2.png");
+    padding: 100px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.booknow-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.booknow-form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 47%;
+}
+.booknow-form input{
+    border: 1px solid #ffffff63;
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #cfcfcf;
+    background: none;
+    padding: 10px;
+}
+.booknow-form input::placeholder{
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #cfcfcf;
+}
+.booknow-form-single-line{
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+}
+.booknow-form-single-line input{
+    width: 50%;
+}
+.booknow-form-single-line button{
+    width: 50%;
+}
+.booknow-form-single-line button{
+    border: 1px solid #FFFFFF6E;    
+    background: none;
+    color: #F2F2F2;
+    font-family: 'Inter';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.1px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    height: 50px;
+
+
+}
+.booknow-submit{
+    height: 50px;
+    background: #B79E56;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 13.31px;
+    letter-spacing: 2.4000000953674316px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    text-transform: uppercase;
+
+}
+.booknow-img{
+    width: 47%;
+}
+.booknow-img img{
+    width: 100%;
+}
+@media screen and (max-width: 1024px){
+    .booknow-container{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .booknow-img{
+        width: 100%;
+    }
+    .booknow-form{
+        width: 100%;
+    }
+
+
+
+}

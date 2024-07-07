@@ -8,7 +8,7 @@ const SecFooter = () => {
         <div className='Sec-Footer-content'>
             <h1>Join us virtually today.</h1>
             <p>Schedule an online session today.</p>
-            <Link to=''><button>BOOK NOW</button></Link>
+            <Link to='/book-now'><button>BOOK NOW</button></Link>
         </div>
     </div>
    </section>
