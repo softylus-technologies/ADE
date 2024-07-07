@@ -5,7 +5,10 @@ import Seo from '../components/seo'
 const booknow = () => {
   return (
    <Layout>
-    <Seo/>
+    <Seo
+    title="Schedule a Call with ADE Properties - Book Now"
+    metaDescription="Schedule a call with ADE Properties. Fill out the form with your name, email address, mobile number, preferred date, and time. Choose between Zoom Call and Microsoft Teams. Submit your inquiry now."
+    />
           <section className='about-hero-sec'>
             <div className='about-hero-container'>
                 <div className='about-hero-title'>

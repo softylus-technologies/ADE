@@ -414,6 +414,6 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="ADE Properties | Luxury Real Estate Development in UAE" metaDescription="Discover ADE Properties, a dynamic property development company within the esteemed Al Dallal Group. Specializing in luxury living, we offer meticulously designed residences with a range of amenities in prime locations. Contact us today to explore our innovative, excellent, and legacy-driven approach to real estate." />
 
 export default IndexPage

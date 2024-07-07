@@ -4,10 +4,13 @@ import { StaticImage } from "gatsby-plugin-image"
 import SecFooter from "../components/SecFooter"
 import Layout from "../components/layout"
 import "../components/style/AboutUs.css"
-
+import Seo from '../components/seo'
 const AboutUs = () => {
   return (
     <Layout>
+      <Seo
+      title="About ADE Properties - Leading Real Estate Development Company"
+      metaDescription="Discover ADE Properties, a dynamic property development company within Al Dallal Group, known for excellence in UAE’s real estate sector. Learn about our legacy, leadership, and commitment to innovation."/>
         <section className='about-hero-sec'>
             <div className='about-hero-container'>
                 <div className='about-hero-title'>

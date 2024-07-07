@@ -3,10 +3,13 @@ import SecFooter from "../components/SecFooter"
 import Layout from "../components/layout"
 import "../components/style/Projects.css"
 import { StaticImage } from 'gatsby-plugin-image';
-
+import Seo from '../components/seo';
 const Projects = () => {
   return (
   <Layout>
+    <Seo 
+    title=" Deansgate by ADE Properties | Luxury Apartments in Majan, Dubai"
+    metaDescription="Discover Deansgate by ADE Properties, a luxurious architectural marvel in Majan, Dubai. Offering Studios, 1 BHK, 2 BHK, 3 BHK, and 4 BHK residences with retail shops, embodying innovation, excellence, and ADE's legacy."/>
     <section className='Projects-hero-sec'>
       <div className='Projects-hero-container'>
         <div className='Projects-hero-title'>
