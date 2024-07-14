@@ -155,6 +155,7 @@
     background: url("/Coming Soon Section.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     flex-direction: column;
 }
 .Deansgate-content span{

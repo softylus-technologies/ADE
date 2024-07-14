@@ -30,7 +30,9 @@ text-align: center;
 }
 .about-Properties-sec{
     display: flex;
-  
+    background: url("/Full facade_night 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     justify-content: center;
    
 }
@@ -38,10 +40,8 @@ text-align: center;
     display: flex;
     justify-content: space-between;
     width: 90%;
-    background: url("/Full facade_night 2.png");
     padding: 100px 0;
-    background-size: contain;
-    background-repeat: no-repeat;
+
 }
 .about-Properties-title{
     width: 47%;

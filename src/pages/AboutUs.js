@@ -28,8 +28,8 @@ const AboutUs = () => {
       <div className="about-Properties-container">
         <div className="about-Properties-title">
           <p>ADE Properties, a dynamic property development company, operates within the esteemed Al Dallal Group, an Emirati-owned business. Al Dallal Real Estate serves as its leasing division, specializing in leasing the properties owned by the group. The group, with a legacy dating back to 1951, has been a cornerstone in the UAE’s real estate sector.</p>
-          <p>ADE Properties, born out of our commitment to innovation and excellence in property development, stands as a testament to our enduring legacy. Founded under the leadership of Ahmad Mohd Al Dallal and Mahmood Mohd Al Dallal, sons of the late Mohamed Mahmood Al Dallal, ADE Properties represents a new chapter in our legacy.</p>
-          <p>Rooted in the wisdom and vision of the late Mohamed Mahmood Al Dallal, a widely regarded advisor and landlord in real estate, ADE Properties carries forward a rich tradition of excellence.</p>
+          <p>ADE Properties, born out of our commitment to innovation and excellence in property development, stands as a testament to our enduring legacy. Founded under the leadership of Ahmad Mohd Al Dallal and Mahmood Mohd Al Dallal, sons of the late Mohammed Mahmood Al Dallal, ADE Properties represents a new chapter in our legacy.</p>
+          <p>Rooted in the wisdom and vision of the late Mohammed Mahmood Al Dallal, a widely regarded advisor and landlord in real estate, ADE Properties carries forward a rich tradition of excellence.</p>
         </div>
         <div className="about-Properties-heading">
         <h1>ADE</h1>
@@ -46,10 +46,10 @@ const AboutUs = () => {
       <div className='personal-container'>
         <div className='personal-content'>
           <p>Saeed Mahmood Al Dallal and Mohammed Ahmad Al Dallal, both distinguished Emirati Nationals, serve as the accomplished Managing Directors of ADE Properties, a leading force in the real estate industry.With a wealth of experience in managing and developing real estate projects, their expertise is unparalleled in the field. </p>
-          <p style={{ marginTop: "30px" }}>Saeed Mahmood Al Dallal and Mohamed Ahmad Al Dallal are renowned for their unwavering commitment to delivering top-notch quality in all their projects. 
+          <p style={{ marginTop: "30px" }}>Saeed Mahmood Al Dallal and Mohammed Ahmad Al Dallal are renowned for their unwavering commitment to delivering top-notch quality in all their projects. 
           Their keen attention to detail and dedication to upholding the highest standards are evident in every endeavor. What truly sets them apart, however, is their remarkable ability to consistently ensure the timely completion and delivery of projects, an attribute that has earned them widespread acclaim and trust in the industry</p>
         </div>
-        <div className='personal-card'>
+        {/* <div className='personal-card'>
           <div className='personal-single-card'>
             <img src='/Rectangle 7.png'/>
             <h3>Saeed Mahmood Al Dallal</h3>
@@ -57,10 +57,10 @@ const AboutUs = () => {
           </div>
           <div className='personal-single-card'>
             <img src='/Rectangle 8.png'/>
-            <h3>Mohamed Mahmood Al Dallal</h3>
+            <h3>Mohammed Mahmood Al Dallal</h3>
             <p>Manager Director ADE Properties</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
     <img src='/Frame 54 (1).png' className='banner-about' />
