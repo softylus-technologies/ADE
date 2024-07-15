@@ -147,8 +147,9 @@ text-align: center;
         font-size: 42px;
     }
     .about-Properties-container{
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 30px;
+
     }
     .about-Properties-title p{
         width: 100%;

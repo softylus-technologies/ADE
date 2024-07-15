@@ -74,18 +74,17 @@ body{
   line-height: 25px;
 }
 .Home-Properties-title button{
-  border: 0.5px solid rgba(255, 255, 255, 1);
-  background: none;
+  background: rgba(183, 158, 86, 1);
+  border: 0.5px solid rgba(183, 158, 86, 1);
   padding: 12px 32px;
   color: rgba(255, 255, 255, 1);
   margin-top: 27px;
   font-size: 14px;
   font-weight: 500;
   transition: 3ms all ease-in-out;
+  cursor: pointer;
 }
-.Home-Properties-title button:hover{
-  color: rgba(255, 255, 255, 0.5);
-}
+
 .swiper-Discover-sec,.swiper-video-sec{
   display: flex;
   justify-content: center;
