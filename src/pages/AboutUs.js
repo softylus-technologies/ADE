@@ -20,7 +20,7 @@ const AboutUs = () => {
                     <h1 className='mobile-aboutUs'> About Us</h1>
                 </div>
                 <div className='about-hero-img'>
-                    <img src='/greensgate 1.svg'/>
+                    <img src='/greensgate 1.png'/>
                 </div>
             </div>
         </section>
