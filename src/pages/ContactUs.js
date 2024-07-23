@@ -67,7 +67,8 @@ const ContactUs = (props) => {
         height: '450px',
     };
 
-    const position = {lat: 25.1873, lng: 55.2744};
+    const position = {lat: 25.1858, lng: 55.2730};
+
 
     return (
         <Layout>

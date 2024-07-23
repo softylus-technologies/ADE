@@ -42,15 +42,15 @@ const Layout = ({ children }) => {
             </div>
             <div className="footer-links">
               <h2>REACH US</h2>
-              <Link to={`tel:+977654235`}>
-                <img src="/call-calling.svg" alt="Call"/>+977654235
+              <Link to={`tel:++971-4-5722220`}>
+                <img src="/call-calling.svg" alt="Call"/>+971-4-5722220
               </Link>
               <Link to={`mailto:info@adeproperties.ae`}>
                 <img src="/sms.svg" alt="Email"/>info@adeproperties.ae
               </Link>
             
               <Link to={`https://www.google.com/maps/search/?api=1&query=SHEIKH+ZAYED+ROAD,+DUBAI,+UAE+341186`}>
-                <img src="/location.svg" alt="Location"/>SHEIKH ZAYED ROAD, DUBAI, UAE 341186
+                <img src="/location.svg" alt="Location"/>Bldg 8, BaySquare, Business Bay, Dubai, UAE
               </Link>
             </div>
             <div className="footer-links ">
