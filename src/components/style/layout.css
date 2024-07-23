@@ -67,6 +67,10 @@
   display: flex;
   gap: 30px;
 }
+.social-icons img{
+  width: 25px;
+}
+
 .footer-logo p{
   color: #FFFFFFB2;
   text-transform: uppercase;
