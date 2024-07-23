@@ -42,6 +42,9 @@
     font-size: 54px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Deansgate-content p{
     font-weight: 400;
@@ -231,5 +234,8 @@
 @media screen and (max-width: 600px){
     .Projects-hero-title{
         width: 90%;
+    }
+    .Deansgate-content h1 img{
+        width: 75px;
     }
 }

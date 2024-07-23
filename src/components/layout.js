@@ -59,10 +59,12 @@ const Layout = ({ children }) => {
               <div>
                 <Link to="../../../../">Home</Link>
                 <Link to="/Projects">projects</Link>
+                <Link to="/AboutUs">about us</Link>
+              <Link to="/ContactUs">contact us</Link>
             </div>
             <div>
-              <Link to="/AboutUs">about us</Link>
-              <Link to="/ContactUs">contact us</Link>
+            <Link to="/PrivacyPolicy">privacy policy</Link>
+            <Link to="/TermsOfUse">Terms & Conditions</Link >   
             </div>
             </div>
             </div>
@@ -75,8 +77,7 @@ const Layout = ({ children }) => {
               <Link to="https://www.facebook.com/ade.properties"><img src="/entypo-social_facebook.svg"/></Link>
 
               </div>
-              <Link to="/PrivacyPolicy">privacy policy</Link>
-              <Link to="/TermsOfUse">Terms & Conditions</Link >   
+             
             </div>
           </div>
         </footer>

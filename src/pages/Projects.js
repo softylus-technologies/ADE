@@ -23,10 +23,10 @@ const Projects = () => {
     <section className='Deansgate-sec'>
       <div className='Deansgate-container'>
         <div className='Deansgate-content'>
-          <h1>Deansgate by ADE</h1>
+          <h1>Deansgate by <img src='/Frame 2.svg'/></h1>
           <span>Affordable • Luxurious • Exceptional</span>
           <p>Deansgate by ADE is a captivating architectural masterpiece nestled in the heart of Majan, Dubai. This contemporary marvel stands tall, boasting a dynamic structure that seamlessly integrates modern living with commercial convenience, from its inviting ground floor to 10 floors of Residential spaces.<br/> 
-            Including Studios, 1 BHK, 2 BHK, 3 BHK, and 4 BHK residences, each meticulously designed to cater to your unique lifestyle. But that’s not all – with retail shops at your doorstep, Deansgate promises a vibrant, all-compassing urban experience like no other. Experience the ideal modern living in Majan, Dubai.</p>
+            Including Studios, 1 BHK, 2 BHK, 3 BHK, and 4 BHK residences, each meticulously designed to cater to your unique lifestyle. But that`s not all - with retail shops at your doorstep, Deansgate promises a vibrant, all-compassing urban experience like no other. Experience the ideal modern living in Majan, Dubai.</p>
         </div>
         <div className='Deansgate-card'>
           <div className='Deansgate-single-card'>

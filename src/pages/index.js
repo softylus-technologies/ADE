@@ -92,14 +92,13 @@ const IndexPage = () => {
                 <SliderButtons />
              </div>
               <SwiperSlide className="swiper-Discover-Slide"><h1>01</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>02</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>03</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>04</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>05</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>06</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>07</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>08</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
-              <SwiperSlide className="swiper-Discover-Slide"><h1>09</h1><img src='/Frame 36.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>02</h1><img src='/Lobby 2.jpg' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>03</h1><img src='/Full facade_night 1.svg' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>04</h1><img src='/Frame 56.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>05</h1><img src='/Frame 57.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>06</h1><img src='/greensgate 1.png' alt="Slide" /></SwiperSlide>
+              <SwiperSlide className="swiper-Discover-Slide"><h1>07</h1><img src='/Frame 54 (1).png' alt="Slide" /></SwiperSlide>
+              
             </Swiper>
           </div>
         </div>
