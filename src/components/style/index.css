@@ -36,8 +36,8 @@ body{
   text-transform: uppercase;
 }
 .homePage-hero-content h1:nth-child(1),.homePage-hero-content h1:nth-child(3){
-  margin-right: 50px;
-  text-align: left;
+  
+  text-align: right;
 }
 .Home-Properties-sec{
   display: flex;

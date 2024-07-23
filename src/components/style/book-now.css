@@ -84,6 +84,14 @@
 .booknow-img img{
     width: 100%;
 }
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(64%) sepia(11%) saturate(1093%) hue-rotate(0deg) brightness(93%) contrast(87%);
+  }
+  
+  /* Change the color of the time icon */
+  input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(64%) sepia(11%) saturate(1093%) hue-rotate(0deg) brightness(93%) contrast(87%);
+  }
 @media screen and (max-width: 1024px){
     .booknow-container{
         flex-direction: column-reverse;

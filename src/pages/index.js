@@ -40,7 +40,7 @@ const IndexPage = () => {
           <div className="Home-Properties-title">
             <h1>ADE Properties</h1>
             <p>A dynamic property development company, operates within the esteemed Al Dallal Group, an Emirati-owned business. </p>
-            <p>Al Dallal Real Estate serves as its leasing division, specializing in leasing the properties owned by the group. The group, with a legacy dating back to 1951, has been a cornerstone in the UAE’s real estate sector</p>
+            <p>Al Dallal Real Estate serves as its leasing division, specializing in leasing the properties owned by the group. The group, with a legacy dating back to 1951, has been a cornerstone in the UAE’s real estate sector.</p>
             <Link to="/AboutUs"><button>MORE ABOUT US</button></Link>
           </div>
           <div className="Home-Properties-img">
