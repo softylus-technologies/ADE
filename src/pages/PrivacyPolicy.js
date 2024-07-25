@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
                     <div className='PrivacyPolicy-hero-text'>
                         <h1>Privacy </h1>
                         <h1>Policy</h1>
-                        <p>Last updated: March 07, 2024</p>
+                        
                     </div>
                     <div className='PrivacyPolicy-hero-p'>
                         <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
@@ -21,6 +21,7 @@ const PrivacyPolicy = () => {
             <section className='PrivacyPolicy-main'>
                <div className='PrivacyPolicy-main-container'>
                 <h2>Interpretation and Definitions</h2>
+                <p style={{marginTop:"10px"}}>Last updated: March 07, 2024</p>
                 <h3>Interpretation</h3>
                 <p>The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
                 <h3>Definitions</h3>

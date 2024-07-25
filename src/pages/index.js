@@ -24,6 +24,8 @@ const SliderButtons = () => {
 }
 
 const IndexPage = () => {
+
+  
   return (
     <Layout>
       <section className="homePage-hero-sec">
@@ -327,10 +329,18 @@ const IndexPage = () => {
                 </div>
              </div>
              <div className="swiper-video-frame">
-                <div className="swiper-video-video">
-                  <video src="/ec9f4365-6487-461c-9481-deeb649cb058 (1).mp4" controls poster="/image.png" Autoplay > </video>
-                </div>
-             </div>
+      <div className="swiper-video-video">
+        <video
+          src="https://ade-strapi.softylus.com/uploads/15.02_ADE%20Deansgate_Final%203D%20Fly-Through_UPD.mp4"
+          controls
+          // poster="/image.png"
+          // preload="metadata"
+          autoPlay
+          style={{ width: '100%', height: 'auto' }} // Ensure responsive design
+        >
+        </video>
+      </div>
+    </div>
           {/* <Swiper
             className="swiper-video"
             breakpointsInverse={true}
