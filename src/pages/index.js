@@ -333,10 +333,10 @@ const IndexPage = () => {
         <video
           src="https://ade-strapi.softylus.com/uploads/15.02_ADE%20Deansgate_Final%203D%20Fly-Through_UPD.mp4"
           controls
-          // poster="/image.png"
-          // preload="metadata"
+          poster="/Full facade_night 1.svg"
+          preload="metadata"
           autoPlay
-          style={{ width: '100%', height: 'auto' }} // Ensure responsive design
+          style={{ width: '100%', height: 'auto',maxHeight:"1000px" }} // Ensure responsive design
         >
         </video>
       </div>
