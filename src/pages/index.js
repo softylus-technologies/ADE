@@ -336,7 +336,7 @@ const IndexPage = () => {
           poster="/Full facade_night 1.svg"
           preload="metadata"
           autoPlay
-          style={{ width: '100%', height: 'auto',maxHeight:"1000px" }} // Ensure responsive design
+          style={{ width: '100%', height: 'auto' }} // Ensure responsive design
         >
         </video>
       </div>
